@@ -1,3 +1,5 @@
+#code de base par Nathoune 
+
 import discord
 from discord import Embed
 from discord.ext import commands
@@ -6,7 +8,7 @@ import json
 from colorama import Fore, Back, Style
 import sys, time
 colorama.init()
-bot = commands.Bot(command_prefix = "!", description = "Bot de Nathoune")
+bot = commands.Bot(command_prefix = "!", description = "Bot de Sleyzix")
 
 print('\033[36m' + '                     ██▓    ▓█████      ▄▄▄▄    ▒█████  ▄▄▄█████▓\n                    ▓██▒    ▓█   ▀     ▓█████▄ ▒██▒  ██▒▓  ██▒ ▓▒\n                    ▒██░    ▒███       ▒██▒ ▄██▒██░  ██▒▒ ▓██░ ▒░\n                    ▒██░    ▒▓█  ▄     ▒██░█▀  ▒██   ██░░ ▓██▓ ░ \n                    ░██████▒░▒████    ▒░▓█  ▀█▓░ ████▓▒░  ▒██▒ ░ \n                    ░ ▒░▓  ░░░ ▒░     ░░▒▓███▀▒░ ▒░▒░▒░    ▒ ░░   \n                    ░ ░ ▒  ░ ░ ░      ░▒░▒   ░   ░ ▒ ▒░     ░    \n                      ░ ░      ░        ░    ░ ░ ░ ░ ▒    ░      \n                        ░  ░   ░      ░ ░          ░ ░          ')
 print('\033[39m')
